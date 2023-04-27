@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<h1>Cadastro completo de aluno</h1>
+<hr>
+
+<body>
+    <form action="Cadastros.html" method="post">
+        <h4>Dados pessoais</h4>
+        <label for="">Nome completo:</label> <input type="text" name="Nome" placeholder="Nome completo">
+        <label for="">Data de nasc.</label> <input type="date">
+        <br>
+        <br>
+        <label for="">Endereço:</label>
+        <input type="text" name="Endereço">
+        <label for="">Nº:</label>
+        <input type="number" min="0" max="99999999999999">
+        <br>
+        <br>
+        <label for="">Sexo:</label>
+        <label for="">F:</label><input type="radio" name="Sexo" value="F">
+        <label for="">M:</label><input type="radio" name="Sexo" value="M">
+        <br>
+        <br>
+        <h4>Informações de contato</h4>
+        <label for="">Nº de telefone:</label>
+        <input type="tel" placeholder="+55 (042) 99999-9999" name="tel">
+        <label for="">Email:</label> <input type="email" name="Email">
+        <br>
+        <br>
+        <h4>Outras infos</h4>
+        <label for="">Estuda atualmente?</label>
+        <br>
+        <label for="">Sim</label> <input type="radio" name="Estuda" value="Sim" >
+        <label for="">Não</label> <input type="radio" name="Estuda" value="Não" >
+        <br>
+        <label for="">Cor favorita (Pode ser personalizada):</label>
+        <input type="color" name="Cor">
+        <br>
+        <br>
+        <button type="submit" style="color: red"> Salvar</button>
+        <br>
+    </form>
+
+
+
+
+</body>
+
+</html>
